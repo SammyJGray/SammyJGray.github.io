@@ -1,3 +1,47 @@
 html{
     background-color: yellowgreen;
 }
+
+.colour{
+    font-weight: 100;
+}
+
+#black{
+    color: black;
+}
+
+#white{
+    color: white;
+}
+
+#blue{
+    color: blue;
+}
+
+#green{
+    color: green;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#orange{
+    color: orange;
+}
+
+#red{
+    color: red;
+}
+
+#brown{
+    color: brown;
+}
+
+#grey{
+    color: grey;
+}
+
+#purple{
+    color: purple;
+}
