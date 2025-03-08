@@ -1,17 +1,17 @@
 html{
-    background-color: #DBE2EF;
+    background-color: #DCD7C9;
 }
 
 h1{
-    color: #112D4E;
+    color: #2C3930;
 }
 
 h2{
-    color: #112D4E;
+    color: #2C3930;
 }
 
 h3{
-    color: #3F72AF;
+    color: #3F4F44;
 }
 
 .zain {
@@ -62,4 +62,19 @@ h3{
 
 #purple{
     color: purple;
+}
+
+#Motavation-div{
+    background-color: #A27B5C;
+    width: 50%;
+    margin-left: 25%;
+    padding: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#Motavation-img{
+    border: 5px solid white;
+    width: 100%;
 }
