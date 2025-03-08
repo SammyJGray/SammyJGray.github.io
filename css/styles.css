@@ -68,7 +68,7 @@ h3{
     background-color: #A27B5C;
     width: 50%;
     margin-left: 25%;
-    padding: 10%;
+    padding: 5% 5% 5% 5%;
     text-align: center;
     font-size: 2rem;
     font-weight: bolder;
@@ -76,5 +76,4 @@ h3{
 
 #Motavation-img{
     border: 5px solid white;
-    width: 100%;
 }
