@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#game-container{
+    width: 60vw;
+    height: 60vw;
+    margin: 5vh auto;
+    background-color: lightblue;
+    position: relative;
+    border: 0.5vw solid #333;
+}
+
+#box{
+    width: 10vw;
+    height: 10vw;
+    max-width: 80px;
+    max-height: 80px;
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+    transition: all 0.2s;
+}
