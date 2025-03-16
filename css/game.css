@@ -4,13 +4,26 @@ body{
     background-color: #f4f4f4;
 }
 
-#game-container{
-    width:40vw;
-    height: 40vw;
-    margin: 5vh auto;
-    background-color: lightblue;
-    position: relative;
-    border: 0.5vw solid #333;
+@media screen and (orientation:portrait){
+    #game-container{
+        width:60vw;
+        height: 60vw;
+        margin: 5vh auto;
+        background-color: lightblue;
+        position: relative;
+        border: 0.5vw solid #333;
+    }
+}
+
+@media screen and (orientation:landscape){
+    #game-container{
+        width:35vw;
+        height: 35vw;
+        margin: 5vh auto;
+        background-color: lightblue;
+        position: relative;
+        border: 0.5vw solid #333;
+    }
 }
 
 #box{
