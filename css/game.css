@@ -5,8 +5,8 @@ body{
 }
 
 #game-container{
-    width: 60vw;
-    height: 60vw;
+    width:40vw;
+    height: 40vw;
     margin: 5vh auto;
     background-color: lightblue;
     position: relative;
