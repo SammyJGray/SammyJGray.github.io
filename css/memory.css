@@ -80,8 +80,8 @@ h2{
 }
 
 #timer{
-    width: 20vw;
-    height: 10vw;
+    width: 11em;
+
     background-color: aquamarine;
 
     border: 2px solid black;
