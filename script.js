@@ -1,5 +1,10 @@
-function box_reaction(){
-    window.location.href = "./pages/game.html";
+function reaction(){
+    window.location.href = "./pages/reaction.html";
 }
 
-document.getElementById("clickTheBox").addEventListener("click",box_reaction);
+function memory(){
+    window.location.href = "./pages/memory.html"
+}
+
+document.getElementById("reaction").addEventListener("click",reaction);
+document.getElementById("memory").addEventListener("click",memory);
