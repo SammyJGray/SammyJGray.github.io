@@ -1,0 +1,10 @@
+#game-container{
+    width: 60vmin;
+    height: 60vmin;
+
+    margin: 1rem auto;
+    background-color: aquamarine;
+    position: relative;
+    
+    border: 2px solid black;
+}
