@@ -1,55 +1,40 @@
-
-
-h1{
-    text-align: center;
-    margin: 0 0 0.1rem 0;
+#name, h2{
+    color: #EF233C;
 }
 
-h3{
-    text-align: center;
-    margin: 0 0 1rem 0;
-    font-weight: normal;
-}
-
-.game-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20ch,1fr));
-    justify-items: center;
-
-    margin: 1rem;
-
-    gap: 1rem;
-}
-
-.gameBox{
-    border: 2px solid black;
-    border-radius: 10%;
-
-    padding: 0.5rem 1rem;
-
-    background-color: aquamarine;
-
+.wrapper {
     display: flex;
+    gap: 20px;
+    height: 100vh;
+    width: 100vw;
+
     justify-content: center;
     align-items: center;
-
-    cursor: pointer;
 }
 
-#Green-Alien{
-    position: fixed;
-    bottom: 0;
+.box {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
 }
 
-#end{
-    height: 600vh;
-    width: 50vw;
+#About {
+    text-align: left;
+}
 
-    margin: 10vw auto;  
+#ProjectsList {
+    height: 20rem;
+    width: 10rem;
+    margin: 0 auto;
+    border: 2px solid white;
 
-    border: 2px solid black;
-    border-radius: 10%;
+    list-style-type: none;
 
-    background: linear-gradient(180deg, 
-        red, orange, yellow, green, cyan, blue, violet);
+    padding: 1rem;
+}
+
+@media (max-width: 380px) {
+    .wrapper {
+        flex-direction: column;
+    }
 }
